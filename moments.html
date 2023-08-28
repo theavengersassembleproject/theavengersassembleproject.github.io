@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="resources/images/avengers.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Assemble | Moments</title>
+    <meta property="og:title" content="Avengers Assemble | Moments" />
+    <meta property="og:url" content="https://theavengersassembleproject.herokuapp.com/moments" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Un pequeño detalle para mi novia.
+    'Gracias por siempre ayudarme a crecer y convertirme en una mejor versión de mí mismo. LoveYou3000++'" />
+    <meta property="og:image" content="resources/images/openGraph.jpg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <header class="secondary-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="counter col-6 col-sm-6 col-md-8">
+                <a id="loveCounter" href="https://theavengersassembleproject.herokuapp.com">
+                  <i class="far fa-heart"></i>
+                  <span>I Love You</span>
+                </a>
+              </div>
+              <div class="nav-bttn col-3 col-sm-3 col-md-2">
+                <a href="https://theavengersassembleproject.herokuapp.com/moments">Moments</a>
+              </div>
+              <div class="nav-bttn col-3 col-sm-3 col-md-2">
+                <a href="https://theavengersassembleproject.herokuapp.com/messages">Messages</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="moments">
+      <div class="container">
+        <div class="row">
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="1" title="Where I Met You - Museo de Historia Mexicana" class="image-container" style="background-image: url('resources/images/1.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Where I Met You</h4>
+                  <h5>Museo de Historia Mexicana</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="2" title="Falling In Love With You - La Oficina" class="image-container" style="background-image: url('resources/images/2.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Falling In Love With You</h4>
+                  <h5>La Oficina</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="3" title="Date No Date - Los Chileros" class="image-container" style="background-image: url('resources/images/3.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Date No Date</h4>
+                  <h5>Los Chileros</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="4" title="Avengers Assemble - Cinemex Paseo San Pedro" class="image-container" style="background-image: url('resources/images/4.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Avengers Assemble</h4>
+                  <h5>Cinemex Paseo San Pedro</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="5" title="Waiting - Choza" class="image-container" style="background-image: url('resources/images/5.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Waiting</h4>
+                  <h5>Choza</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="6" title="Día D - Centro Estudiantil" class="image-container" style="background-image: url('resources/images/6.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Día D</h4>
+                  <h5>Centro Estudiantil</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="7" title="Our Spot - Aulas 3" class="image-container" style="background-image: url('resources/images/7.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Our Spot</h4>
+                  <h5>Aulas 3</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="8" title="The First Date - Parroquia San Juan Bosco" class="image-container" style="background-image: url('resources/images/8.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>The First Date</h4>
+                  <h5>Parroquia San Juan Bosco</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="9" title="Contigo, A Donde Sea - IHOP" class="image-container" style="background-image: url('resources/images/9.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Contigo, A Donde Sea</h4>
+                  <h5>IHOP</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="10" title="The First Kiss - Kit" class="image-container" style="background-image: url('resources/images/10.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>The First Kiss</h4>
+                  <h5>Kit</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="11" title="Monterrey Begins - Cerro de la Silla" class="image-container" style="background-image: url('resources/images/11.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Monterrey Begins</h4>
+                  <h5>Cerro de la Silla</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="12" title="Blizzards - Paseo Santa Lucía" class="image-container" style="background-image: url('resources/images/12.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Blizzards</h4>
+                  <h5>Paseo Santa Lucía</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="13" title="Good Luck - Estadio BBVA" class="image-container" style="background-image: url('resources/images/13.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Good Luck</h4>
+                  <h5>Estadio BBVA</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="14" title="Prácticas - CETEC" class="image-container" style="background-image: url('resources/images/14.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Prácticas</h4>
+                  <h5>CETEC</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="15" title="La Primera Rosa - PF Chang's" class="image-container" style="background-image: url('resources/images/15.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>La Primera Rosa</h4>
+                  <h5>PF Chang's</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="16" title="No Kisses - MARCO" class="image-container" style="background-image: url('resources/images/16.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>No Kisses</h4>
+                  <h5>MARCO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="17" title="Learning From You About You - Parque Fundidora" class="image-container" style="background-image: url('resources/images/17.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Learning From You About You</h4>
+                  <h5>Parque Fundidora</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="19" title="1000 Kisses - Estadio Universitario" class="image-container" style="background-image: url('resources/images/19.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>1000 Kisses</h4>
+                  <h5>Estadio Universitario</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="20" title="La Despedida - Paseo Tec" class="image-container" style="background-image: url('resources/images/20.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>La Despedida</h4>
+                  <h5>Paseo Tec</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="21" title="Best Trip Ever - Chihuahua" class="image-container" style="background-image: url('resources/images/21.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Best Trip Ever</h4>
+                  <h5>Chihuahua</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="22" title="Eres Tú - Parral" class="image-container" style="background-image: url('resources/images/22.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Eres Tú</h4>
+                  <h5>Parral</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="23" title="Hi Again - CETEC" class="image-container" style="background-image: url('resources/images/23.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Hi Again</h4>
+                  <h5>CETEC</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="24" title="El Fin Del Hombre Araña - Nuevo Sur" class="image-container" style="background-image: url('resources/images/24.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>El Fin Del Hombre Araña</h4>
+                  <h5>Escaleras Nuevo Sur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="25" title="Just Friends - The Sushi Boyz" class="image-container" style="background-image: url('resources/images/25.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Just Friends</h4>
+                  <h5>The Sushi Boys</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="26" title="Clarity - Estadio Borregos" class="image-container" style="background-image: url('resources/images/26.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Clarity</h4>
+                  <h5>Estadio Borregos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="27" title="¿Quieres Ser Mi Novia? - Estacionamiento Nuevo Sur" class="image-container" style="background-image: url('resources/images/27.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>¿Quieres Ser Mi Novia?</h4>
+                  <h5>Estacionamiento Nuevo Sur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="28" title="El Parquecito - Nuevo Sur" class="image-container" style="background-image: url('resources/images/28.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>El Parquecito</h4>
+                  <h5>Nuevo Sur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="29" title="New Family - Depa Nuevo Sur" class="image-container" style="background-image: url('resources/images/29.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>New Family</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="30" title="Oh Man - La Oficina" class="image-container" style="background-image: url('resources/images/30.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Oh Man</h4>
+                  <h5>La Oficina</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="32" title="Piña Aventuras - Pueblo Serena" class="image-container" style="background-image: url('resources/images/32.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Piña Aventuras</h4>
+                  <h5>Pueblo Serena</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="33" title="Good Advice - Jhonny Rockets" class="image-container" style="background-image: url('resources/images/33.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Good Advice</h4>
+                  <h5>Jhonny Rockets</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="34" title="Fire - Estacionamiento B2" class="image-container" style="background-image: url('resources/images/34.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Fire</h4>
+                  <h5>Estacionamiento B2</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="35" title="Ad Astra - Punto Valle" class="image-container" style="background-image: url('resources/images/35.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Ad Astra</h4>
+                  <h5>Punto Valle</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="36" title="No Touching - Café del Museo" class="image-container" style="background-image: url('resources/images/36.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>No Touching</h4>
+                  <h5>Café del Museo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="37" title="I Love You - Estacionamiento B2" class="image-container" style="background-image: url('resources/images/37.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>I Love You</h4>
+                  <h5>Estacionamiento B2</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="38" title="Las Escobas - Canchas La Luz" class="image-container" style="background-image: url('resources/images/38.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Las Escobas</h4>
+                  <h5>Canchas La Luz</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="40" title="I Have An Idea - Departamento 1703" class="image-container" style="background-image: url('resources/images/40.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>I Have An Idea</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="41" title="Cupidity - Kit" class="image-container" style="background-image: url('resources/images/41.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Cupidity</h4>
+                  <h5>Kit</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="42" title="Stairs - Torre R10" class="image-container" style="background-image: url('resources/images/42.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Stairs</h4>
+                  <h5>Torre R10</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="44" title="Picnic - Mesa del Epazote" class="image-container" style="background-image: url('resources/images/44.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Picnic</h4>
+                  <h5>Mesa del Epazote</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="45" title="En Las Faldas De La Sierra - Chipinque"class="image-container" style="background-image: url('resources/images/45.jpg');"onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>En Las Faldas De La Sierra</h4>
+                  <h5>Chipinque</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="46" title="The Not First Time - Departamento 1703" class="image-container" style="background-image: url('resources/images/46.jpg');"onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>The Not First Time</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="47" title="Adventures - El Mirador"class="image-container" style="background-image: url('resources/images/47.jpg');"onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Adventures</h4>
+                  <h5>El Mirador</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="48" title="Maletas - Cancha De Volleyball" class="image-container" style="background-image: url('resources/images/48.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Maletas</h4>
+                  <h5>Cancha De Volleyball</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="49" title="Gordos - Postrería" class="image-container" style="background-image: url('resources/images/49.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Gordos</h4>
+                  <h5>Postrería</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="50" title="Pandemic - Monterrey"class="image-container" style="background-image: url('resources/images/50.jpg');"onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Pandemic</h4>
+                  <h5>Monterrey</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="51" title="It's Been A Long, Long Time - Lavasolas Soriana Contry" class="image-container" style="background-image: url('resources/images/51.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>It's Been A Long, Long Time</h4>
+                  <h5>Lavasolas Soriana Contry</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="53" title="Spooky Time - Departamento 1703" class="image-container" style="background-image: url('resources/images/53.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Spooky Time</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="54" title="Nuevo Escondite - Departamento 1703" class="image-container" style="background-image: url('resources/images/54.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Nuevo Escondite</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="55" title="Los Exploradores - El Cañón de la Virgen" class="image-container" style="background-image: url('resources/images/55.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Los Exploradores</h4>
+                  <h5>El Cañón de la Virgen</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="56" title="Halloween - Nuevo Sur" class="image-container" style="background-image: url('resources/images/56.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Halloween</h4>
+                  <h5>Nuevo Sur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="57" title="Sexy Time - El Niu" class="image-container" style="background-image: url('resources/images/57.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Sexy Time</h4>
+                  <h5>El Niu</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="58" title="Pandemic Part II - Monterrey" class="image-container" style="background-image: url('resources/images/58.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Pandemic Part II</h4>
+                  <h5>Monterrey</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="59" title="Surprise! - Parral" class="image-container" style="background-image: url('resources/images/59.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Surprise!</h4>
+                  <h5>Parral</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="60" title="Friends - TopGolf" class="image-container" style="background-image: url('resources/images/60.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Friends</h4>
+                  <h5>TopGolf</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="61" title="Jojo Rabbit - Autocinema La Nacional" class="image-container" style="background-image: url('resources/images/61.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Jojo Rabbit</h4>
+                  <h5>Autocinema La Nacional</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="62" title="Together Again - Santa Bárbara" class="image-container" style="background-image: url('resources/images/62.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Together Again</h4>
+                  <h5>Santa Bárbara</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="63" title="New Memories - El Parralense" class="image-container" style="background-image: url('resources/images/63.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>New Memories</h4>
+                  <h5>El Parralense</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="64" title="Los Menonitas - Cuauhtémoc" class="image-container" style="background-image: url('resources/images/64.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Los Menonitas</h4>
+                  <h5>Cuauhtémoc</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="65" title="Into the Thick of It - Santuario de Schoenstatt" class="image-container" style="background-image: url('resources/images/65.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Into The Thick Of It</h4>
+                  <h5>Santuario de Schoenstatt</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="66" title="Do You Believe in Magic? - Syma AUTOSHAMPOO" class="image-container" style="background-image: url('resources/images/66.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Do You Believe in Magic?</h4>
+                  <h5>Syma AUTOSHAMPOO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="67" title="Alergia - Hospital Christus Muguerza Sur" class="image-container" style="background-image: url('resources/images/67.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Alergia</h4>
+                  <h5>Hospital Christus Muguerza Sur</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="68" title="2 Años - Palmares" class="image-container" style="background-image: url('resources/images/68.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>2 Años</h4>
+                  <h5>Palmares</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="69" title="Spidey-Man - Palmares" class="image-container" style="background-image: url('resources/images/69.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Spidey-Man</h4>
+                  <h5>Palmares</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="70" title="Pulmón Regio - Parque El Capitán" class="image-container" style="background-image: url('resources/images/70.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Pulmón Regio</h4>
+                  <h5>Parque El Capitán</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="71" title="El Edén - Viveros Valle Alto" class="image-container" style="background-image: url('resources/images/71.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>El Edén</h4>
+                  <h5>Viveros Valle Alto</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="72" title="El Pinal - Chipinque" class="image-container" style="background-image: url('resources/images/72.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>El Pinal</h4>
+                  <h5>Chipinque</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="73" title="Beers & Friends - La Taberna" class="image-container" style="background-image: url('resources/images/73.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Beers & Friends</h4>
+                  <h5>La Taberna</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="74" title="This Is Halloween - Departamento 1703" class="image-container" style="background-image: url('resources/images/74.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>This Is Halloween</h4>
+                  <h5>Departamento 1703</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="75" title="Tradición - Palmares" class="image-container" style="background-image: url('resources/images/75.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Tradición</h4>
+                  <h5>Palmares</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="76" title="A Gusto - Paseo Santa Lucía" class="image-container" style="background-image: url('resources/images/76.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>A Gusto</h4>
+                  <h5>Paseo Santa Lucía</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="77" title="Conversión - Estadio Universitario" class="image-container" style="background-image: url('resources/images/77.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Conversión</h4>
+                  <h5>Estadio Universitario</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="78" title="Date Night - Santiago" class="image-container" style="background-image: url('resources/images/78.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Date Night</h4>
+                  <h5>Santiago</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="79" title="Mátalas - Torreón" class="image-container" style="background-image: url('resources/images/79.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Mátalas</h4>
+                  <h5>Torreón</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="80" title="Luztopía - Paseo Santa Lucía" class="image-container" style="background-image: url('resources/images/80.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>Luztopía</h4>
+                  <h5>Paseo Santa Lucía</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="image-col col-4 col-sm-4 col-md-4 col-lg-3">
+            <div id="81" title="La Vieja Chochona - Casa de Luis" class="image-container" style="background-image: url('resources/images/81.jpg');" onclick="momentModal(this.id, this.title)">
+              <div class="caption">
+                <div>
+                  <h4>La Vieja Chochona</h4>
+                  <h5>Casa de Luis</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="myImage" class="modal-content" />
+            <div id="myCaption"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="title col-6 col-sm-6 col-md-8">
+                <a href="https://theavengersassembleproject.herokuapp.com">
+                  <h1>Avengers Assemble</h1>
+                </a>
+              </div>
+              <div class="nav-bttn col-3 col-sm-3 col-md-2">
+                <a href="https://theavengersassembleproject.herokuapp.com/moments">Moments</a>
+              </div>
+              <div class="nav-bttn col-3 col-sm-3 col-md-2">
+                <a href="https://theavengersassembleproject.herokuapp.com/messages">Messages</a>
+              </div>
+            </div>
+          </div>
+          <div class="copy-container col-12">
+            <div class="copyright">
+              <span>©</span>
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              <span>, made with </span>
+              <i class="fas fa-heart"></i>
+              <span> by Oscar Guevara</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/9499308d56.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scripts-min.js"></script>
+  </body>
+</html>
