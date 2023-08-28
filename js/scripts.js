@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 function momentModal(moment, title) {
   modal.style.display = "block";
-  image.src = "resources/images/" + moment + ".jpg";
+  image.src = "resources/moments/" + moment + ".webp";
   caption.innerHTML = title;
 }
 
